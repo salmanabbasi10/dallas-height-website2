@@ -1,0 +1,129 @@
+/* General Styles for Products Section */
+#products {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Individual Product Styles */
+.product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.product .price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Hover Effects */
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Logo Styles */
+.logo {
+    width: 15%; /* Set the logo size to 1/5th (20%) of its original width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 20px; /* Center the logo and add spacing below */
+}
+/* Header Container */
+./* Header Container */
+.header-container {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Place items at opposite ends */
+    align-items: center; /* Vertically center the logo and title */
+    padding: 20px 20px;
+}
+
+/* Logo Styles */
+.logo {
+    width: 100px; /* Adjust the logo size */
+    height: auto;
+}
+
+/* Header Title Styles */
+header h1 {
+    font-size: 1.8rem;
+    color: white;
+    margin: 0.5;
+}
+
+/* Header Background */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center; /* Ensure left alignment for text */
+}
+
+}
+/* Contact Section */
+#contact {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+#contact h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
